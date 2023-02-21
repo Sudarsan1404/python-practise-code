@@ -1,0 +1,11 @@
+a = 10
+
+def values():
+    global a
+    print(f"the value is {a}")
+    a=20
+    #localizing the global value
+    
+    print(f"the new value is {a}")
+    
+values()
