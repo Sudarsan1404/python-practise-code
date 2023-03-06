@@ -6,4 +6,6 @@ def myfunc(s):
         else:
             result += s[i].lower()
     return result
-myfunc(sudarsan)    
+s= input("Enter something:")    
+    
+print(myfunc(s))  
