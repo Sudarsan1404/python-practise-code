@@ -6,3 +6,4 @@ def myfunc(s):
         else:
             result += s[i].lower()
     return result
+myfunc(sudarsan)    
